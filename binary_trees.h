@@ -44,4 +44,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 /* Inserts node a right-child of another node. */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
+/* Deletes a binary tree */
+void binary_tree_delete(binary_tree_t *tree);
+
 #endif
