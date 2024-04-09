@@ -1,8 +1,17 @@
+# Ignore all files
+*
+
+# But don't ignore files with extensions
+!*.*
+
+# Don't ignore directories
+!*/
+
 # Ignore Emacs temp files
 *~
 /#*
 
-# Ignore compiled files and the print function
+# Ignore the print function
 binary_tree_print.c
 
 # Ignore files used for testing
