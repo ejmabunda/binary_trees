@@ -1,0 +1,9 @@
+# Ignore Emacs temp files
+*~
+/#*
+
+# Ignore compiled files and the print function
+binary_tree_print.c
+
+# Ignore files used for testing
+*main*
