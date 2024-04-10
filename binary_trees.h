@@ -70,4 +70,7 @@ size_t binary_tree_height(const binary_tree_t *tree);
 /* Looks for the greater value */
 size_t max(size_t a, size_t b);
 
+/* Measures the depth of a tree */
+size_t binary_tree_depth(const binary_tree_t *tree);
+
 #endif
