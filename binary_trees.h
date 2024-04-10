@@ -1,6 +1,8 @@
 #ifndef BINARY_TREES
 #define BINARY_TREES
 
+#include <stdlib.h>
+
 /* Type declarations here */
 /**
  * struct binary_tree_s - Binary tree node
@@ -61,5 +63,11 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 
 /* Goes through a binary tree using post-order traversal */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+
+/* Measures the height of a binary tree */
+size_t binary_tree_height(const binary_tree_t *tree);
+
+/* Looks for the greater value */
+size_t max(size_t a, size_t b);
 
 #endif
