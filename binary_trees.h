@@ -82,4 +82,7 @@ void increment(binary_tree_t *node, size_t size);
 /* Counts the leaves in a binary tree */
 size_t binary_tree_leaves(const binary_tree_t *tree);
 
+/* Counts the nodes with at least 1 child in a binary tree*/
+size_t binary_tree_nodes(const binary_tree_t *tree);
+
 #endif

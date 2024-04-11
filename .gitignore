@@ -9,7 +9,8 @@
 
 # Ignore Emacs temp files
 *~
-/#*
+*#*
+
 
 # Ignore the print function
 binary_tree_print.c
