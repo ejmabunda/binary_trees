@@ -73,4 +73,10 @@ size_t max(size_t a, size_t b);
 /* Measures the depth of a tree */
 size_t binary_tree_depth(const binary_tree_t *tree);
 
+/* Measures the size of the tree */
+size_t binary_tree_size(const binary_tree_t *tree);
+
+/* Increment a value by 1 */
+void increment(binary_tree_t *node, size_t size);
+
 #endif
